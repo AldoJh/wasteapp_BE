@@ -1,7 +1,7 @@
 import {Sequelize} from 'sequelize';
 
-const db = new Sequelize('wasteapp_db','root','',{
-    host: "localhost",
+const db = new Sequelize('railway','root','svNWuHHksfLXUltDTmLwrtfCleCAVfIn',{
+    host: "monorail.proxy.rlwy.net",
     dialect: "mysql"
 });
 
