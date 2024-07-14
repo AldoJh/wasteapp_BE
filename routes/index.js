@@ -4,6 +4,12 @@ import { verifyToken } from '../middleware/verifytoken.js';
 
 const router = Express.Router();
 
+router.get('/', (req, res) => {
+  res.json({
+    message: 'API - 👋🌎🌍🌏'
+  });
+});
+
 router.post('/register', register);
 router.post('/login', login);
 router.delete('/logout', verifyToken, logout);
