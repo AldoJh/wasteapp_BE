@@ -5,4 +5,5 @@ const db = new Sequelize('railway','root','svNWuHHksfLXUltDTmLwrtfCleCAVfIn',{
     dialect: "mysql"
 });
 
+//export variabel
 export default db;
